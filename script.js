@@ -6,11 +6,11 @@ hours:{0:[8,20],1:[8,20],2:[8,20],3:[8,20],4:[8,20],5:null,6:[8,20]}}; // 0=Sun 
 /* ================= IMAGE LIBRARY (replace URLs any time) ================= */
 const U=id=>`https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=800&q=75`;
 const IMG={hero:'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1800&q=75',
-cut:      'https://i.ibb.co/vxP9vP00/Screenshot-20261011-221255.jpg',cut2:'  https://i.ibb.co/nsqHjS3b/Screenshot-20261011-221026.jpg ',style:U('1522337360788-8b13dee7a37e'),
-beard:' https://i.ibb.co/ZRfZDbB4/Screenshot-20261004-215809.jpg ',wash:U('1562322140-8baeececf3df'),spa:'https://i.ibb.co/JwRRQwBN/image-search-1791738219440.jpg  ',
-treat:U('1595476108010-b4d1f102b1b1'),color:U('1492106087820-71f1a00d2b11'),bridal:U('1519741497674-611481863552'),
-facial:U('1570172619644-dfd03ed5d881'),nails:U('1604654894610-df63bc536371'),massage:U('1544161515-4ab6ce6db874'),
-salon:U('1527799820374-dcf8d9d4a388'),makeup:U('1487412947147-5cebf100ffc2'),prod:U('1526947425960-945c6e72858f'),prod2:U('1571781926291-c477ebfd024b')};
+cut:      'https://i.ibb.co/vxP9vP00/Screenshot-20261011-221255.jpg',cut2:'  https://i.ibb.co/nsqHjS3b/Screenshot-20261011-221026.jpg ',style:'https://i.ibb.co/F44tdkDZ/Screenshot-20261004-215527.jpg ',
+beard:' https://i.ibb.co/ZRfZDbB4/Screenshot-20261004-215809.jpg ',wash:' https://i.ibb.co/DHzxVYWk/image-search-1791738720696.jpg  ',spa:'https://i.ibb.co/JwRRQwBN/image-search-1791738219440.jpg  ',
+treat:U('1595476108010-b4d1f102b1b1'),color:U('1492106087820-71f1a00d2b11'), prming : ' https://i.ibb.co/84NySSBv/Screenshot-20261011-222525.jpg ',
+facial:  ' https://i.ibb.co/Lzzvgw4S/image-search-1791737241357.jpg ',professional facial:' https://i.ibb.co/Lzzvgw4S/image-search-1791737241357.jpg  ',massage:'https://i.ibb.co/MkrQD28L/image-search-1791739071126.jpg',
+salon:U('1527799820374-dcf8d9d4a388'),makeup:'  https://i.ibb.co/nsqHjS3b/Screenshot-20261011-221026.jpg  ',  colour:' https://i.ibb.co/HkdBvMR/Screenshot-20261011-221517.jpg ',prod2:U('1571781926291-c477ebfd024b')};
 /* ================= SERVICE DATA (sample prices) ================= */
 const SERVICES=[
 ['professional Haircut',500,'30 min','hair','cut','Clean, precise cut tailored to your face shape.'],
